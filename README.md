@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/915046808009441323.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/AzJ7Uz7wkx) [!(https://poggit.pmmp.io/p/ElevatorBlock)
+[![Discord](https://img.shields.io/discord/915046808009441323.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/AzJ7Uz7wkx)
 
 # Elevator
 A simple PocketMine-MP plugin that allows to create elevators on your server.
