@@ -3,7 +3,6 @@
 namespace Ayzrix\Elevator\Utils;
 
 use Ayzrix\Elevator\Main;
-
 class Utils {
 
     /**
