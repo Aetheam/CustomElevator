@@ -1,7 +1,7 @@
 ---
 prefix: "§6[§fElevatorBlock§6]"
 
-# Elevator ID & META ("ID:META")
+# Elevator block name
 block: "diamond_block"
 
 # Enable or disable the distance system (true|false)

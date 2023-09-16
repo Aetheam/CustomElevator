@@ -14,8 +14,8 @@ You just have to setup an id in the config.yml. Place 2 blocks aligned, jump to 
 ```yaml
 prefix: "§6[§fElevatorBlock§6]"
 
-# Elevator ID & META ("ID:META")
-block: "155:0"
+# Elevator block name
+block: "diamond_block"
 # EXAMPLE: If you are using the bone block, set to false to allow all rotations [Put anyway :0 on "block"]
 use_meta: true
 # Enable or disable the distance system (true|false)
