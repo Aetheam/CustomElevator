@@ -17,7 +17,7 @@ class PlayerListener implements Listener {
         $level = $player->getWorld();
         $block = Utils::getIntoConfig("block");
 
-        if ($level->getBlock($player->getPosition()->subtract(0, 1, 0))->asItem()->getTypeId()=== StringToItemParser::getInstance()->parse($block)->getTypeId()  ) {
+        if ($level->getBlock($player->getPosition()->subtract(0, 1, 0))->asItem()->getTypeId() === StringToItemParser::getInstance()->parse($block)->getTypeId()  ) {
 
             $x = (int)floor($player->getPosition()->getX());
             $y = (int)floor($player->getPosition()->getY());
