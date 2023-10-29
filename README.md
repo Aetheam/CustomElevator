@@ -24,6 +24,9 @@ distance: true
 # Maximum distance between 2 elevators
 max_distance: 5
 
+# permission to use elevator
+permission: "elevator"
+
 no_elevator_found: "{prefix} §cNo elevator was found"
 distance_too_hight: "{prefix} §cAn elevator has been found, but it's too far"
 ```
