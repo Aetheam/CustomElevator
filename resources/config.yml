@@ -13,6 +13,21 @@ max_distance: 5
 no_elevator_found: "{prefix} §cNo elevator was found"
 distance_too_hight: "{prefix} §cAn elevator has been found, but it's too far"
 
+
 # permission to use elevator
-permission: "elevator"
+permission: true
+#if you would use distance by a rank and if permission is true
+
+#dist:
+#  permission1:
+#    if distance = true
+#    max_distance: 4
+#  permission2:
+#    if distance = true
+#    max_distance: 4
+dist:
+  player_6_block:
+    max_distance: 5
+  player_7_block:
+    max_distance: 7
 ...
