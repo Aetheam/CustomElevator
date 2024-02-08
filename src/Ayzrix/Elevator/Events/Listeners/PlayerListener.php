@@ -11,6 +11,7 @@ use pocketmine\event\player\PlayerToggleSneakEvent;
 use pocketmine\item\StringToItemParser;
 use pocketmine\math\Vector3;
 use pocketmine\player\Player;
+use pocketmine\world\World;
 
 class PlayerListener implements Listener
 {
@@ -49,10 +50,11 @@ class PlayerListener implements Listener
         $x = (int)floor($player->getPosition()->getX());
         $y = (int)floor($player->getPosition()->getY()) - 2;
         $z = (int)floor($player->getPosition()->getZ());
+        $minY = $level->getMinY();
         $found = false;
         $y--;
 
-        for (; $y >= 0; $y--) {
+        for (; $y >= $minY; $y--) {
             if ($found = (ElevatorAPI::isElevatorBlock($x, $y, $z, $level) !== null)) {
                 break;
             }
