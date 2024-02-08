@@ -11,7 +11,6 @@ use pocketmine\event\player\PlayerToggleSneakEvent;
 use pocketmine\item\StringToItemParser;
 use pocketmine\math\Vector3;
 use pocketmine\player\Player;
-use pocketmine\world\World;
 
 class PlayerListener implements Listener
 {
