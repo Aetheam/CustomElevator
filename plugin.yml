@@ -1,7 +1,7 @@
 name: CustomElevator
 main: Ayzrix\Elevator\Main
 api: 5.0.0
-version: 1.2.3
+version: 1.2.4
 author:
   - Ayzrix
   - royal
