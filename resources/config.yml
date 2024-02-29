@@ -1,18 +1,16 @@
 ---
+# DON'T TOUCH!
+config-version: "1.0.0"
 prefix: "§6[§fElevatorBlock§6]"
 
 # Elevator block name
-block: "diamond_block"
+block: "diamond block"
 
 # Enable or disable the distance system (true|false)
 distance: true
 
 # Maximum distance between 2 elevators
 max_distance: 5
-
-no_elevator_found: "{prefix} §cNo elevator was found"
-distance_too_hight: "{prefix} §cAn elevator has been found, but it's too far"
-
 
 # permission to use elevator
 permission: true
@@ -30,4 +28,27 @@ dist:
     max_distance: 5
   player_7_block:
     max_distance: 7
+
+# ==(CONFIGURATION)==
+Settings:
+  # ==(WORLD MANAGER)==
+  # add to "whitelist" or "blacklist" modes
+  WorldManager:
+    # Valid modes:
+    # - whitelist
+    # - blacklist
+    # - false
+    mode: whitelist
+    # Add the names of worlds that are in the whitelist
+    worlds-whitelist:
+      - "world"
+      - "world-2"
+      - "ACM"
+    # Add the names of worlds that are in the blacklist
+    worlds-blacklist:
+      - "MinePvP"
+      - "ZonePvP"
+
+no_elevator_found: "{prefix} §cNo elevator was found"
+distance_too_hight: "{prefix} §cAn elevator has been found, but it's too far"
 ...
