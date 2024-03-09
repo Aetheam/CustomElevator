@@ -40,13 +40,11 @@ class ElevatorAPI{
         if(boolval($mode) === false){
             return true;
         }
-        switch(strtolower($mode)){
-            case self::BLACKLIST:
-            return self::isBlacklistMode($player->getWorld()->getFolderName());
-    
-            case self::WHITELIST:
-            return self::isWhitelistMode($player->getWorld()->getFolderName());
-        }
+        return match (strtolower($mode)) {
+            self::BLACKLIST => self::isBlacklistMode($player->getWorld()->getFolderName()),
+            self::WHITELIST => self::isWhitelistMode($player->getWorld()->getFolderName()),
+            default => false,
+        };
     }
     
     /**
